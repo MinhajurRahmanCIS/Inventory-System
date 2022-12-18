@@ -1,7 +1,9 @@
 import React from 'react';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
+import useTitle from '../../TitleView/useTitle';
 
 const About = () => {
+    useTitle("About")
     return (
         <div className='mb-10 text-center'>
             <div className='text-center mb-8'>

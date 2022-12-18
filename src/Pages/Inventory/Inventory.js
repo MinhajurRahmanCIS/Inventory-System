@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
-import { Link } from 'react-router-dom';
 import useTitle from '../../TitleView/useTitle';
 
 const Inventory = () => {
-    useTitle("Service");
+    useTitle("Inventory");
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('https://inventory-server-nine.vercel.app/services')
@@ -18,8 +17,8 @@ const Inventory = () => {
     return (
         <div className='mb-10'>
             <div className='text-center mb-10'>
-                <h2 className="text-5xl font-semibold">Our Brand New Products</h2>
-                <h2 className="text-3xl font-semibold mt-5">Total Product {services.length}</h2>
+                <h2 className="text-5xl font-semibold">Inventory</h2>
+                <h2 className="text-3xl font-semibold mt-5">Total Product: {services.length}</h2>
             </div>
             {
                services.length === 0 ?
@@ -35,13 +34,14 @@ const Inventory = () => {
                         <figure>
                             <PhotoProvider>
                                 <PhotoView src={service.img}>
-                                    <img src={service.img} alt="" />
+                                    <img className='w-96' src={service.img} alt="" />
                                 </PhotoView>
                             </PhotoProvider>
                         </figure>
                         <div className="card-body">
                             <h2 className="card-title">{service.title}</h2>
                             <p className='text-1xl text-black font-semibold'>Stock: {service.quantity} </p>
+                            <p className='text-1xl text-black font-semibold'>Description: {service.description} </p>
                             <p className='text-2xl text-indigo-400 font-semibold'>Price: ${service.price} </p>
                         </div>
                     </div>)

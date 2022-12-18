@@ -75,7 +75,7 @@ const Login = () => {
                     <p className='text-center'>New to Foodie Service! <Link className='text-pink-500 font-bold' to="/signup">Sign Up</Link> </p>
                     <ToastContainer />
                 </div>
-                <div className="text-center lg:text-left">
+                <div className="text-center lg:text-left hidden md:block lg:block">
                     <img className='w-3/4' src={img} alt="" />
                 </div>
             </div>

@@ -5,7 +5,7 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 import useTitle from '../../TitleView/useTitle';
 
 const Services = () => {
-    useTitle("Service");
+    useTitle("Product");
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('https://inventory-server-nine.vercel.app/services')
@@ -35,7 +35,7 @@ const Services = () => {
                         <figure>
                             <PhotoProvider>
                                 <PhotoView src={service.img}>
-                                    <img src={service.img} alt="" />
+                                    <img className='w-96' src={service.img} alt="" />
                                 </PhotoView>
                             </PhotoProvider>
                         </figure>

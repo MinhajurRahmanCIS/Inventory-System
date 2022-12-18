@@ -4,7 +4,7 @@ import useTitle from '../../TitleView/useTitle';
 import Review from './Review';
 
 const Reviews = () => {
-    useTitle("Review");
+    useTitle("Cart");
     const { user } = useContext(AuthContext);
     const [reviews, setReviews] = useState([]);
     

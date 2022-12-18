@@ -1,10 +1,10 @@
 import React from 'react';
-import { MdOutlineFoodBank } from 'react-icons/md';
+import { MdOutlineInventory } from 'react-icons/md';
 import { toast, ToastContainer } from 'react-toastify';
 import useTitle from '../../TitleView/useTitle';
 const AddNewService = () => {
 
-    useTitle("Add New Service")
+    useTitle("Add New Inventory Product")
     const handelAddService = event => {
         event.preventDefault();
         const form = event.target;
@@ -47,7 +47,7 @@ const AddNewService = () => {
             <div className="card flex-shrink-0 w-full max-w-xl shadow-2xl bg-base-100">
                 <form onSubmit={handelAddService}>
                     <div className="card-body">
-                        <h2 className='text-3xl text-purple-200 font-bold'><MdOutlineFoodBank />Add new stock</h2>
+                        <h2 className='text-3xl text-purple-900 font-bold'><MdOutlineInventory />Add new stock</h2>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Title</span>

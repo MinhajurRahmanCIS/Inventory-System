@@ -40,7 +40,7 @@ const SignUp = () => {
     return (
         <div className="hero w-full my-20">
             <div className="hero-content grid gap-20 md:grid-cols-2 flex-col lg:flex-row">
-                <div className="text-center lg:text-left">
+                <div className="text-center lg:text-left hidden md:block lg:block">
                     <img className='w-3/4' src={img} alt="" />
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 py-20">

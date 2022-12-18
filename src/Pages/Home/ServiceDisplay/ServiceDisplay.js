@@ -22,7 +22,7 @@ const ServiceDisplay = () => {
                         <figure>
                             <PhotoProvider>
                                 <PhotoView src={service.img}>
-                                    <img src={service.img} alt="" />
+                                    <img className='w-96' src={service.img} alt="" />
                                 </PhotoView>
                             </PhotoProvider>
                         </figure>
