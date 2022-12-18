@@ -11,8 +11,7 @@ Project Deploy Site For Client side: https://peppy-puppy-3b54cb.netlify.app \
 Project Deploy Site For Server side: https://inventory-server-nine.vercel.app
 
 
-Project Repository Link For Client side: https://github.com/MinhajurRahmanCIS/Inventory-System \
-Project Repository Link For Server side: https://github.com/MinhajurRahmanCIS/Inventory-System-server
+Project Repository Link For Client side: https://github.com/MinhajurRahmanCIS/Inventory-System 
 
 # Project Info
 This is a Inventory System.
