@@ -10,10 +10,11 @@ Project Deploy Site For Client side: https://peppy-puppy-3b54cb.netlify.app \
 Project Deploy Site For Server side: https://inventory-server-nine.vercel.app
 
 
-Project Repository Link For Client side: https://github.com/MinhajurRahmanCIS/Inventory-System 
+Project Repository Link For Client side: https://github.com/MinhajurRahmanCIS/Inventory-System \
+Project Repository Link For Server side: https://github.com/MinhajurRahmanCIS/Inventory-System-server
 
 # Project Info
-This is a Inventory System.
+This is an Inventory System.
 ## Technologies  –
 1.     The System is develop with react library.  
 2.     For the fastest route I used react router framework.
